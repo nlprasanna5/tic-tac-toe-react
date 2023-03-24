@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table td {
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.data {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.turn {
+  font-size: 2rem;
+}
+
+.heading {
+  color: blueviolet;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.winner {
+  font-size: 2rem;
+}
+
+.restart {
+  padding: 1rem;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1rem;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
